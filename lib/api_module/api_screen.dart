@@ -89,7 +89,7 @@ class _ApiScreenState extends State<ApiScreen> {
  Widget _buildItem(Map<String, dynamic> item) {
   return Card(
     child: Container(
-      height: 200, // Set the desired height for the card
+      height: 300, // Set the desired height for the card
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
