@@ -11,6 +11,7 @@
 
 
 // import 'package:cc/api_module/api_app.dart';
+import 'package:cc/adv_state_module/adv_state_app.dart';
 import 'package:cc/api_module/api_screen.dart';
 import 'package:cc/sample_loading.dart';
 import 'package:cc/user_module/user_app.dart';
@@ -18,7 +19,7 @@ import 'package:flutter/material.dart';
 import 'package:cc/mvc/api_app.dart';
 
 void main() {
-  runApp(UserApp());
+  runApp(advStateAppWithState());
 }
 
 
