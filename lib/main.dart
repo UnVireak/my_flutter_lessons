@@ -17,10 +17,19 @@ import 'package:cc/sample_loading.dart';
 import 'package:cc/user_module/user_app.dart';
 import 'package:flutter/material.dart';
 import 'package:cc/mvc/api_app.dart';
+import 'package:cc/cache_module/cache_app.dart';
+
+
+import 'nuFlutterPhp_module/item_app.dart';
 
 void main() {
-  runApp(advStateAppWithState());
+  runApp(ItemApp());
 }
+
+
+// void main() {
+//   runApp(cacheAppWithProvider());
+// }
 
 
 
